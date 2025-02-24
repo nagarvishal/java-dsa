@@ -8,6 +8,8 @@ public class LengthOfLastword {
         String s = "Hello   world   ";
         String s2 = "";
         int index=-1;
+
+        
         for(int i=s.length()-1;i>=0;i--){
             if(s.charAt(i-1) == ' ' && s.charAt(i) != ' '){
                 index = i;
